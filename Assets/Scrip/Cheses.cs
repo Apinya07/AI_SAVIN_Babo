@@ -48,9 +48,9 @@ public class Cheses : MonoBehaviour
         EnableToChase = canSee;
 
         // ปรับ Blend Animation
-        float targetAnimSpeed = EnableToChase ? 7f : 4.5f;
-        currentAnimSpeed = Mathf.Lerp(currentAnimSpeed, targetAnimSpeed, Time.deltaTime * 3f);
-        animator.SetFloat("speed", currentAnimSpeed);
+        //float targetAnimSpeed = EnableToChase ? 7f : 4.5f;
+        //currentAnimSpeed = Mathf.Lerp(currentAnimSpeed, targetAnimSpeed, Time.deltaTime * 3f);
+        //animator.SetFloat("speed", currentAnimSpeed);
     }
 
     private void ChasePlayer()

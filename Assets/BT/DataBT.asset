@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4131759074758845397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c02bb70996b49eba31d0c206e28da24, type: 3}
+  m_Name: DataBT
+  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.RuntimeBlackboardAsset
+  VersionTimestamp: 638983024823723512
+  AssetID:
+    m_Value0: 7215799035728776821
+    m_Value1: 2007470937929940617
+  m_Blackboard:
+    m_Variables:
+    - rid: 5616763003263255483
+    - rid: 5616763003660140861
+  m_SharedBlackboardVariableGuids:
+  - m_Value0: 10946376512098466439
+    m_Value1: 6757023196625982684
+  - m_Value0: 14473628745532868836
+    m_Value1: 8991661182890781517
+  references:
+    version: 2
+    RefIds:
+    - rid: 5616763003263255483
+      type: {class: 'BlackboardVariable`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10946376512098466439
+          m_Value1: 6757023196625982684
+        Name: ReadyToUnleashUlt
+        m_Value: 0
+    - rid: 5616763003660140861
+      type: {class: 'BlackboardVariable`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 14473628745532868836
+          m_Value1: 8991661182890781517
+        Name: OnUltimateInvoke
+        m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd922ae02c94c87a66e46a10a7319b9, type: 3}
+  m_Name: DataBT
+  m_EditorClassIdentifier: Unity.Behavior.Authoring::Unity.Behavior.BehaviorBlackboardAuthoringAsset
+  AssetID:
+    m_Value0: 7215799035728776821
+    m_Value1: 2007470937929940617
+  m_Variables:
+  - rid: 5616763003263255482
+  - rid: 5616763003660140860
+  m_VersionTimestamp: 638983024823723512
+  m_CommandBuffer:
+    m_Commands: []
+  m_RuntimeBlackboardAsset: {fileID: -4131759074758845397}
+  references:
+    version: 2
+    RefIds:
+    - rid: 5616763003263255482
+      type: {class: 'TypedVariableModel`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 10946376512098466439
+          m_Value1: 6757023196625982684
+        Name: ReadyToUnleashUlt
+        IsExposed: 1
+        m_IsShared: 1
+        m_Value: 0
+    - rid: 5616763003660140860
+      type: {class: 'TypedVariableModel`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
+      data:
+        ID:
+          m_Value0: 14473628745532868836
+          m_Value1: 8991661182890781517
+        Name: OnUltimateInvoke
+        IsExposed: 1
+        m_IsShared: 1
+        m_Value: 0
