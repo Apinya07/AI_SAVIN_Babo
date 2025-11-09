@@ -47,17 +47,8 @@ public class Cheses : MonoBehaviour
         bool canSee = CanSeePlayer();
         EnableToChase = canSee;
 
-        if (EnableToChase)
-        {
-            ChasePlayer();
-        }
-        else
-        {
-            PatrolArea();
-        }
-
         // ปรับ Blend Animation
-        float targetAnimSpeed = EnableToChase ? 1f : 0.3f;
+        float targetAnimSpeed = EnableToChase ? 7f : 4.5f;
         currentAnimSpeed = Mathf.Lerp(currentAnimSpeed, targetAnimSpeed, Time.deltaTime * 3f);
         animator.SetFloat("speed", currentAnimSpeed);
     }
@@ -100,9 +91,9 @@ public class Cheses : MonoBehaviour
         if (Physics.Raycast(transform.position + Vector3.up, directionToPlayer,
             out RaycastHit hit, detectionRadius, Obstacle | Player))
         {
-            return hit.collider.CompareTag("Player");
+            return true;
         }
-
+        ;
         return false;
     }
 
