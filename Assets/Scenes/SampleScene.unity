@@ -844,6 +844,7 @@ MonoBehaviour:
   - rid: 3283266173304570075
   - rid: 3283266173304570080
   - rid: 3283266175033671924
+  - rid: 3283266175033672505
   m_OriginalGraph: {fileID: 1423727608014578538, guid: 3db0a642bb23e784798da0733eb00592, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -914,6 +915,14 @@ MonoBehaviour:
           m_Value1: 6450707290552509926
         Name: Timecombine
         m_Value: {fileID: 8334245958721281951}
+    - rid: 3283266175033672505
+      type: {class: 'BlackboardVariable`1[[StateplayOne, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 7643957154733473882
+          m_Value1: 9749735329469649149
+        Name: StateAnnie
+        m_Value: 5
 --- !u!137 &242555990943711951
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -3667,6 +3676,7 @@ MonoBehaviour:
   - rid: 3283266159255749096
   - rid: 5616762999035658809
   - rid: 3283266175033671925
+  - rid: 3283266175033672506
   m_OriginalGraph: {fileID: 1423727608014578538, guid: 85b553dd4faf1c84fbf231e587fc15aa, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -3729,6 +3739,14 @@ MonoBehaviour:
           m_Value1: 10444183785362663811
         Name: Timecombine
         m_Value: {fileID: 1989074531835642943}
+    - rid: 3283266175033672506
+      type: {class: 'BlackboardVariable`1[[StateplayOne, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 7643957154733473882
+          m_Value1: 9749735329469649149
+        Name: StateAnnie
+        m_Value: 5
     - rid: 5616762999035658809
       type: {class: 'BlackboardVariable`1[[UnityEngine.Animator, UnityEngine.AnimationModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
