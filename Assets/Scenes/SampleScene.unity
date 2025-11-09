@@ -843,6 +843,7 @@ MonoBehaviour:
   - rid: 3283266173304570076
   - rid: 3283266173304570075
   - rid: 3283266173304570080
+  - rid: 3283266175033671924
   m_OriginalGraph: {fileID: 1423727608014578538, guid: 3db0a642bb23e784798da0733eb00592, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -905,6 +906,14 @@ MonoBehaviour:
           m_Value1: 9381961050578318507
         Name: anim
         m_Value: {fileID: 6236164926628117223}
+    - rid: 3283266175033671924
+      type: {class: 'BlackboardVariable`1[[IncreaseTimeSinceCombine, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 9469007518887139037
+          m_Value1: 6450707290552509926
+        Name: Timecombine
+        m_Value: {fileID: 8334245958721281951}
 --- !u!137 &242555990943711951
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -3539,6 +3548,7 @@ GameObject:
   - component: {fileID: 1989074531835642937}
   - component: {fileID: 1989074531835642936}
   - component: {fileID: 1989074531835642940}
+  - component: {fileID: 1989074531835642943}
   - component: {fileID: 1989074531835642939}
   - component: {fileID: 1989074531835642942}
   - component: {fileID: 1989074531835642941}
@@ -3656,6 +3666,7 @@ MonoBehaviour:
   - rid: 3283266159255748845
   - rid: 3283266159255749096
   - rid: 5616762999035658809
+  - rid: 3283266175033671925
   m_OriginalGraph: {fileID: 1423727608014578538, guid: 85b553dd4faf1c84fbf231e587fc15aa, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -3710,6 +3721,14 @@ MonoBehaviour:
           m_Value1: 13702942625103396156
         Name: annieAnimaor
         m_Value: {fileID: 1989074531835642939}
+    - rid: 3283266175033671925
+      type: {class: 'BlackboardVariable`1[[IncreaseTimeSinceCombine, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 17625114453147189020
+          m_Value1: 10444183785362663811
+        Name: Timecombine
+        m_Value: {fileID: 1989074531835642943}
     - rid: 5616762999035658809
       type: {class: 'BlackboardVariable`1[[UnityEngine.Animator, UnityEngine.AnimationModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -3755,6 +3774,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Patal
   patrolRange: 30
+--- !u!114 &1989074531835642943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989074531835642935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a7094d3bc54e449a40d25027434f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IncreaseTimeSinceCombine
+  timeSinceCombine: 20
 --- !u!4 &1998577180636493986
 Transform:
   m_ObjectHideFlags: 0
@@ -4019,6 +4051,7 @@ GameObject:
   - component: {fileID: 8334245958721281947}
   - component: {fileID: 299780095296861066}
   - component: {fileID: 6236164926628117223}
+  - component: {fileID: 8334245958721281951}
   - component: {fileID: 8334245958721281950}
   - component: {fileID: 8334245958721281949}
   - component: {fileID: 8334245958721281948}
@@ -11317,6 +11350,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Patal
   patrolRange: 20
+--- !u!114 &8334245958721281951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2149541329675549286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a7094d3bc54e449a40d25027434f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IncreaseTimeSinceCombine
+  timeSinceCombine: 20
 --- !u!4 &8354618566919273681
 Transform:
   m_ObjectHideFlags: 0
